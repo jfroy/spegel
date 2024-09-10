@@ -1,5 +1,5 @@
 TAG = $$(git rev-parse --short HEAD)
-IMG ?= ghcr.io/spegel-org/spegel
+IMG ?= ghcr.io/jfroy/spegel
 REF = $(IMG):$(TAG)
 CNI ?= iptables
 DELETE_E2E_CLUSTER ?= true
